@@ -1,125 +1,99 @@
 # Sahil Mangla
 
-### Computer Engineering Student • AI/ML Builder • Sustainability-Focused Engineer
+Computer Engineering student at Thapar Institute of Engineering & Technology interested in machine learning, backend engineering, and production AI systems.
 
-## Background
-
-I'm a Computer Engineering student at Thapar Institute of Engineering & Technology, focused on applying machine learning and software engineering to real-world optimization and sustainability challenges.
-
-My work spans EV battery intelligence, graph-based Detection Systems, and full-stack platforms. I approach engineering through first-principles problem solving—understanding constraints, defining architecture, and then building systems that scale.
-
-In 2026, I led the development of an AI sustainability solution that won 1st place at an international hackathon hosted by the Canadian University Dubai among 200+ global teams.
-
-I believe sustainability and optimization are the defining engineering challenges of this decade, and I'm particularly interested in AI systems that create measurable impact in energy, infrastructure, and industrial domains.
-
-
-## Technical Work
-
-### Volt-AI — Battery Intelligence Platform
-
-Built an end-to-end machine learning platform for EV battery diagnostics and Remaining Useful Life (RUL) prediction.
-
-- Processed 10,000+ battery telemetry records
-- Engineered 50+ battery-health features
-- Trained regression and LSTM models achieving ~90% prediction accuracy
-- Developed FastAPI services for real-time inference
-- Containerized deployment using Docker
-
-**Tech:** Python, Scikit-Learn, LSTM, FastAPI, Docker
+I enjoy building end-to-end software that combines machine learning, databases, APIs, and modern AI tooling. Recently I've been working on NLP, time-series forecasting, MLOps, database automation, and open-source software.
 
 ---
 
-### Aadhaar Graph Anomaly Detection System
+## Current Work
 
-Designed a graph-based identity fraud detection framework that models relationships between entities and identifies suspicious patterns through network analysis.
-
-- Built scalable ETL pipelines using Pandas
-- Modeled identity relationships as graphs
-- Achieved ~82% anomaly detection accuracy
-- Visualized anomaly clusters and centrality metrics
-
-**Tech:** Python, NetworkX, Scikit-Learn, Pandas
+- Building production AI applications
+- Exploring agentic AI and Model Context Protocol (MCP)
+- Contributing to open source
+- Learning distributed AI systems and MLOps
 
 ---
 
-### MyHeritage Passport
+## Selected Projects
 
-A full-stack platform promoting cultural exploration across India.
+### Trend Discovery Engine
 
-- Cataloged 3,691+ monuments
-- Integrated 42 UNESCO heritage sites
-- Built interactive map visualizations
-- Implemented digital heritage passport system
-- Deployed on Vercel
+An NLP platform that analyzes Hacker News discussions to identify emerging technology trends.
 
-**Tech:** Next.js, TypeScript, REST APIs, Vercel
+- Clustered 2,000+ Hacker News posts into 85 semantic topics using Sentence Transformers, UMAP, and HDBSCAN.
+- Built forecasting pipelines using Linear Regression, XGBoost, and LSTM with MLflow experiment tracking.
+- Generated natural-language trend summaries using Gemini.
+
+**Stack:** Python, PyTorch, Sentence Transformers, HDBSCAN, UMAP, MLflow, Streamlit
+
+---
+
+### Volt-AI Battery Intelligence Platform
+
+Machine learning platform for EV battery degradation prediction and Remaining Useful Life estimation.
+
+- Processed 10,000+ battery cycles.
+- Engineered 50+ features.
+- Achieved R² = 0.91 with a 32% reduction in prediction error over baseline models.
+- Deployed using FastAPI and Docker.
+
+**Stack:** Python, PyTorch, Scikit-learn, FastAPI, Docker
+
+---
+
+### Database Auditing & Backup Verification System
+
+Built during my internship at DCM Infotech.
+
+- Automated database backup verification.
+- Developed trigger-based auditing using PostgreSQL and PL/pgSQL.
+- Implemented SHA-256 integrity verification and restore validation.
+
+**Stack:** PostgreSQL, PL/pgSQL, Python, Docker
+
+---
+
+## Open Source
+
+I enjoy contributing to open-source software and learning from production codebases.
+
+Recent contributions include **Codebase MCP**, where I worked on improving indexing reliability and developer experience through merged pull requests.
+
+---
+
+## Technologies
+
+**Languages**
+
+Python • C/C++ • JavaScript • TypeScript • SQL
+
+**Machine Learning**
+
+PyTorch • Scikit-learn • XGBoost • LSTM • Sentence Transformers • HDBSCAN • UMAP • MLflow
+
+**AI Engineering**
+
+Gemini API • Prompt Engineering • Model Context Protocol (MCP)
+
+**Backend**
+
+FastAPI • REST APIs • Next.js • Streamlit
+
+**Databases**
+
+PostgreSQL • Oracle Database • PL/pgSQL
+
+**DevOps**
+
+Docker • Git • GitHub • Hugging Face Spaces • Firebase • Vercel
 
 ---
 
 ## Achievements
 
-### International Winner — AI for Sustainability Hackathon 2026
-
-Canadian University Dubai
-
-Led the development of an AI-powered sustainability solution that secured 1st place among 200+ international teams.
-
-### Winner — TIET Business Hackathon 2024
-
-Designed and validated a cross-company collaboration business model under extreme time constraints, securing 1st place.
-
----
-
-## Current Focus
-
-- Machine Learning Systems
-- Applied AI for Sustainability
-- Data Engineering & Pipelines
-- MLOps & Deployment
-- Production AI Applications
-- Energy & Climate Technology
-
----
-
-## Tech Stack
-
-**Languages**
-
-Python • C++ • JavaScript • TypeScript
-
-**Machine Learning**
-
-Scikit-Learn • Regression • Classification • LSTM
-
-**Data**
-
-Pandas • NumPy • PostgreSQL • OracleDB
-
-**Backend**
-
-FastAPI • REST APIs
-
-**Frontend**
-
-Next.js • TypeScript
-
-**Infrastructure**
-
-Docker • Git • Vercel
-
-**Visualization**
-
-Matplotlib • Seaborn
-
----
-
-## Philosophy
-
-> Build systems that solve meaningful problems.
->
-> Optimize before scaling.
->
-> Measure before claiming impact.
+- Winner — International AI for Sustainability Hackathon 2026 (1st place among 200+ teams)
+- Winner — TIET Business Hackathon 2024
 
 ---
 
