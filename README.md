@@ -2,7 +2,7 @@
 
 Computer Engineering student building AI-powered developer tooling — static analysis, code intelligence infrastructure, and MCP-based AI agent orchestration.
 
-I enjoy working inside large, high-bar codebases and building systems that let AI agents reason over and act on real software. My recent work spans code intelligence, agentic AI infrastructure, applied ML, and database engineering — with merged fixes into PyTorch's GPU kernel layer and a 33K-star code-intelligence engine.
+I enjoy working inside large, high-bar codebases and building systems that let AI agents reason over and act on real software. My recent work spans code intelligence, agentic AI infrastructure, applied ML, and database engineering — with a merged fix into PyTorch's GPU kernel layer and active review-cycle contributions to a 33K-star code-intelligence engine.
 
 ---
 
@@ -19,7 +19,8 @@ I enjoy working inside large, high-bar codebases and building systems that let A
 ## Atlas — AI-Native Engineering Operating System
 An MCP-based developer tooling platform that lets AI agents (CLI, IDE, or remote) reason over a codebase and turn a raw problem statement into phased implementation plans and traceable engineering artifacts.
 - Built dedicated research, planning, and workflow subsystems with human review gates at every phase transition.
-- Designed a versioned contract and adapter layer (request/response envelopes, capability-negotiation manifest) so CLI, MCP, IDE, and REST clients share a single core engine across Gemini, Anthropic, and OpenAI-compatible providers without breaking changes.
+- Designed a versioned contract and adapter layer (request/response envelopes, capability-negotiation manifest) so 6 client surfaces — CLI, IDE, MCP, AI, REST, and Desktop — share a single core engine across Gemini, Anthropic, and OpenAI-compatible providers without breaking changes.
+- Shipped 17 sequential development phases (repository init through Release Candidate Stabilization); ran a full-repo audit that surfaced and fixed 27 issues across 7 dependency-ordered batches, including crash-safe atomic writes and AI-provider adapter fixes.
 
 **Stack:** Python • Pydantic • MCP • Multi-Provider AI Orchestration
 **Links:** [GitHub](https://github.com/sahil-mangla/atlas)
@@ -71,7 +72,7 @@ Database auditing and disaster recovery automation platform built during my inte
 
 I enjoy contributing to production-grade open-source software and learning from large engineering codebases.
 
-**[codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)** (33K+ Stars) — Diagnosed a false-positive recursion bug in the C-based call-graph resolver, eliminating 2,056 spurious CALLS edges with zero recall loss ([#893](https://github.com/DeusData/codebase-memory-mcp/pull/893), [#984](https://github.com/DeusData/codebase-memory-mcp/pull/984), [#1128](https://github.com/DeusData/codebase-memory-mcp/pull/1128)); co-authored merged fixes for silent-failure and locale issues.
+**[codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)** (33K+ Stars) — Submitted three fixes to the C-based call-graph resolution engine: a Java enum-method extraction fix ([#984](https://github.com/DeusData/codebase-memory-mcp/pull/984), maintainer-praised as "genuinely good work," pending final review) and two receiver-qualified CALLS-edge precision fixes targeting false-positive resolution on unrelated method names ([#893](https://github.com/DeusData/codebase-memory-mcp/pull/893), [#1128](https://github.com/DeusData/codebase-memory-mcp/pull/1128)), currently iterating with the maintainer on test coverage.
 
 **[PyTorch](https://github.com/pytorch/pytorch)** ([PR #190481 — Merged](https://github.com/pytorch/pytorch/pull/190481)) — Diagnosed and fixed a correctness bug where `torch.nextafter` silently returned its input unchanged for bfloat16 on Apple's MPS backend; implemented a bitwise stepping kernel fix merged into the PyTorch main branch.
 
@@ -103,8 +104,9 @@ MLflow • Git • GitHub Actions (CI/CD) • Hugging Face • Firebase • Verc
 ---
 
 # Achievements
+- 🏆 2nd Runner-Up — Bharatiya Antariksh Hackathon (ISRO), NRSC Hyderabad 2026 — Top 30 of 15,000+ registered teams
 - 🏆 Winner — International AI For Sustainability 2026 (1st Place among 200+ international teams)
-- 🏆 Winner — TIET Business Hackathon 2024
+- 🏆 Top 100 — Google AI Agent Builder, Google Office Bengaluru 2026
 
 ---
 
