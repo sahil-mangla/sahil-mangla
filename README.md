@@ -48,6 +48,17 @@ An NLP platform that analyzes Hacker News discussions to identify emerging techn
 
 ---
 
+## DustShield — Electrodynamic Dust Shield Digital Twin
+An interactive, browser-based 3D digital twin and operations control dashboard for a lunar Electrodynamic Dust Shield (EDS) mission concept, simulating orbit navigation, surface landing, and real-time dust-clearing physics on solar panels — paired with production-ready hardware to build the real thing.
+- Built a Three.js simulation of AC traveling-wave electrostatic clearing physics, using raycasting and tangential-plane projection so dust particles slide and detach realistically across sloped panel surfaces without artificial bounding boxes.
+- Modeled net energy recovery with a Beer-Lambert exponential attenuation model relating dust coverage to solar transmission, driving real-time efficiency and power-recovery telemetry in the dashboard.
+- Designed and laid out two physical PCBs (a 12V→1-5kV HV flyback driver and a 3-phase electrode sequencer with 4kV-isolated optoisolation) and wrote ESP32-C3 firmware to drive the traveling-wave electrode sequence end-to-end.
+
+**Stack:** Three.js, JavaScript (ES6+), C++/Arduino (ESP32-C3), EasyEDA
+**Links:** [GitHub](https://github.com/sahil-mangla/Dust-Shield) • [Live Demo](https://dust-shield.vercel.app)
+
+---
+
 ## SQL Server Database Health Dashboard
 Production-oriented database monitoring framework developed during my internship at DCM Infotech.
 - Built a modular health monitoring engine using SQL Server DMVs and Extended Events to analyze index fragmentation, storage utilization, transaction log health, and deadlock telemetry.
@@ -58,15 +69,6 @@ Production-oriented database monitoring framework developed during my internship
 
 ---
 
-## Database Auditing & Backup Verification System
-Database auditing and disaster recovery automation platform built during my internship.
-- Automated backup verification and restore validation across production databases.
-- Developed trigger-based field-level auditing using PostgreSQL and PL/pgSQL.
-- Implemented SHA-256 integrity verification for backup validation and disaster recovery workflows.
-
-**Stack:** PostgreSQL • PL/pgSQL • Python • Docker
-
----
 
 ## Open Source
 
