@@ -61,6 +61,8 @@ I enjoy the engineering work behind subtle correctness bugs: understanding why a
 
 A structured engineering workflow that turns project ideas into traceable research, plans, architecture decisions, and evaluation artifacts.
 
+![ATLAS workflow demonstration](assets/atlas-workflow.gif)
+
 - Built dedicated research, planning, and workflow subsystems with explicit human approval gates.
 - Designed a versioned contract and adapter layer for a shared core across AI providers and client surfaces.
 - Completed 17 development phases and a full-repository audit that fixed 27 issues across seven dependency-ordered batches.
@@ -70,6 +72,8 @@ A structured engineering workflow that turns project ideas into traceable resear
 ### 🚦 [TraffiTwin AI — Self-Healing Traffic Digital Twin](https://github.com/sahil-mangla/TraffiTwin-AI) · [Live demo](https://traffitwin-ai.web.app)
 
 A traffic digital twin designed to preserve network observability when sensors fail or telemetry goes missing.
+
+![TraffiTwin AI sensor recovery demonstration](assets/traffitwin-recovery.gif)
 
 - Built a multi-agent pipeline for health monitoring, data reconstruction, and digital-twin updates.
 - Evaluated a spatio-temporal LightGBM model on METR-LA: **2.48 mph MAE** and **6.06% MAPE**.
@@ -81,6 +85,8 @@ A traffic digital twin designed to preserve network observability when sensors f
 
 An NLP-based technology intelligence platform that identifies and forecasts emerging topics from Hacker News discussions.
 
+![Trend Discovery Engine demonstration](assets/trend-discovery.gif)
+
 - Clustered 2,000+ discussions into 85 semantic topics using embeddings and density-based clustering.
 - Built forecasting experiments with Linear Regression, XGBoost, and LSTM, tracked with MLflow.
 - Added Gemini-powered summaries to make discovered trends easier to explore.
@@ -90,6 +96,8 @@ An NLP-based technology intelligence platform that identifies and forecasts emer
 ### 🌕 [DustShield — Electrodynamic Dust Shield Digital Twin](https://github.com/sahil-mangla/Dust-Shield) · [Live demo](https://dust-shield.vercel.app)
 
 An interactive 3D simulation and operations dashboard for a lunar electrostatic dust-clearing concept, paired with embedded hardware work.
+
+![DustShield 3D simulation demonstration](assets/dustshield-simulation.gif)
 
 - Simulated traveling-wave dust-clearing behavior across angled solar-panel surfaces.
 - Modeled dust coverage and solar transmission to estimate power recovery.
