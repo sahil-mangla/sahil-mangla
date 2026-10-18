@@ -61,7 +61,9 @@ I enjoy the engineering work behind subtle correctness bugs: understanding why a
 
 A structured engineering workflow that turns project ideas into traceable research, plans, architecture decisions, and evaluation artifacts.
 
-![ATLAS workflow demonstration](assets/atlas-workflow.gif)
+<p align="center">
+  <img src="assets/atlas-workflow.gif" alt="ATLAS workflow demonstration" width="700" />
+</p>
 
 - Built dedicated research, planning, and workflow subsystems with explicit human approval gates.
 - Designed a versioned contract and adapter layer for a shared core across AI providers and client surfaces.
@@ -73,7 +75,9 @@ A structured engineering workflow that turns project ideas into traceable resear
 
 A traffic digital twin designed to preserve network observability when sensors fail or telemetry goes missing.
 
-![TraffiTwin AI sensor recovery demonstration](assets/traffitwin-recovery.gif)
+<p align="center">
+  <img src="assets/traffitwin-recovery.gif" alt="TraffiTwin AI sensor recovery demonstration" width="700" />
+</p>
 
 - Built a multi-agent pipeline for health monitoring, data reconstruction, and digital-twin updates.
 - Evaluated a spatio-temporal LightGBM model on METR-LA: **2.48 mph MAE** and **6.06% MAPE**.
@@ -85,7 +89,9 @@ A traffic digital twin designed to preserve network observability when sensors f
 
 An NLP-based technology intelligence platform that identifies and forecasts emerging topics from Hacker News discussions.
 
-![Trend Discovery Engine demonstration](assets/trend-discovery.gif)
+<p align="center">
+  <img src="assets/trend-discovery.gif" alt="Trend Discovery Engine demonstration" width="700" />
+</p>
 
 - Clustered 2,000+ discussions into 85 semantic topics using embeddings and density-based clustering.
 - Built forecasting experiments with Linear Regression, XGBoost, and LSTM, tracked with MLflow.
@@ -97,7 +103,9 @@ An NLP-based technology intelligence platform that identifies and forecasts emer
 
 An interactive 3D simulation and operations dashboard for a lunar electrostatic dust-clearing concept, paired with embedded hardware work.
 
-![DustShield 3D simulation demonstration](assets/dustshield-simulation.gif)
+<p align="center">
+  <img src="assets/dustshield-simulation.gif" alt="DustShield 3D simulation demonstration" width="700" />
+</p>
 
 - Simulated traveling-wave dust-clearing behavior across angled solar-panel surfaces.
 - Modeled dust coverage and solar transmission to estimate power recovery.
